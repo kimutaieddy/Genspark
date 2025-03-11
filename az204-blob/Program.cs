@@ -1,22 +1,46 @@
 ﻿using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 
-Console.WriteLine("Azure Blob Storage exercise\n");
+Console.WriteLine("Azure Blob Storage Example\n");
 
-// Run the examples asynchronously, wait for the results before proceeding
-ProcessAsync().GetAwaiter().GetResult();
-
-Console.WriteLine("Press enter to exit the sample application.");
-Console.ReadLine();
+await ProcessAsync();
 
 static async Task ProcessAsync()
 {
-    // Copy the connection string from the portal in the variable below.
-    string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=angleblobstorage;AccountKey=26SUk4HIS4xyEHXSIwGgTsOJBUQt6sG6YJl5zWdGMb5nHqBiIbT5mOZmQSsYuNLt5Sk22iYf9dcH+AStG770YA==;EndpointSuffix=core.windows.net";
+    string storageConnectionString = "YOUR_CONNECTION_STRING";
 
-    // Create a client that can authenticate with a connection string
+    // Create a Blob Service Client
     BlobServiceClient blobServiceClient = new BlobServiceClient(storageConnectionString);
 
-    // COPY EXAMPLE CODE BELOW HERE
+    // Create a container
+    string containerName = "testcontainer" + Guid.NewGuid().ToString();
+    BlobContainerClient containerClient = await blobServiceClient.CreateBlobContainerAsync(containerName);
+    Console.WriteLine($"Container '{containerName}' created.");
 
+    // Upload a file
+    string localFilePath = "testfile.txt";
+    await File.WriteAllTextAsync(localFilePath, "Hello, Azure Blob Storage!");
+    BlobClient blobClient = containerClient.GetBlobClient("testfile.txt");
+    await blobClient.UploadAsync(File.OpenRead(localFilePath));
+    Console.WriteLine("File uploaded.");
+
+    // List blobs
+    Console.WriteLine("Listing blobs:");
+    await foreach (BlobItem blob in containerClient.GetBlobsAsync())
+    {
+        Console.WriteLine("\t" + blob.Name);
+    }
+
+    // Download the file
+    string downloadedFilePath = "downloaded_testfile.txt";
+    BlobDownloadInfo download = await blobClient.DownloadAsync();
+    using FileStream downloadFile = File.OpenWrite(downloadedFilePath);
+    await download.Content.CopyToAsync(downloadFile);
+    Console.WriteLine("File downloaded.");
+
+    // Clean up
+    await containerClient.DeleteAsync();
+    File.Delete(localFilePath);
+    File.Delete(downloadedFilePath);
+    Console.WriteLine("Cleanup completed.");
 }
