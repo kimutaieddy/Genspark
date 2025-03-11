@@ -1,0 +1,15 @@
+D:\azuree\Azure functions\az204-blob\bin\Debug\net8.0\az204-blob.exe
+D:\azuree\Azure functions\az204-blob\bin\Debug\net8.0\az204-blob.deps.json
+D:\azuree\Azure functions\az204-blob\bin\Debug\net8.0\az204-blob.runtimeconfig.json
+D:\azuree\Azure functions\az204-blob\bin\Debug\net8.0\az204-blob.dll
+D:\azuree\Azure functions\az204-blob\bin\Debug\net8.0\az204-blob.pdb
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\az204-blob.GeneratedMSBuildEditorConfig.editorconfig
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\az204-blob.AssemblyInfoInputs.cache
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\az204-blob.AssemblyInfo.cs
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\az204-blob.csproj.CoreCompileInputs.cache
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\az204-blob.sourcelink.json
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\az204-blob.dll
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\refint\az204-blob.dll
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\az204-blob.pdb
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\az204-blob.genruntimeconfig.cache
+D:\azuree\Azure functions\az204-blob\obj\Debug\net8.0\ref\az204-blob.dll
