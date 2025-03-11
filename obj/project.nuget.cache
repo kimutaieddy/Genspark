@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "1prs+qsbV6Q=",
+  "success": false,
+  "projectFilePath": "D:\\azuree\\Azure functions\\Azure functions.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Azure.Functions.Worker (>= 2.0.0)' for 'net8.0'.",
+      "libraryId": "Microsoft.Azure.Functions.Worker",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore (>= 2.0.0)' for 'net8.0'.",
+      "libraryId": "Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.Azure.Functions.Worker.Sdk (>= 2.0.0)' for 'net8.0'.",
+      "libraryId": "Microsoft.Azure.Functions.Worker.Sdk",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
