@@ -7,7 +7,7 @@ await ProcessAsync();
 
 static async Task ProcessAsync()
 {
-    string storageConnectionString = "YOUR_CONNECTION_STRING";
+    string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=angleblobstorage;AccountKey=26SUk4HIS4xyEHXSIwGgTsOJBUQt6sG6YJl5zWdGMb5nHqBiIbT5mOZmQSsYuNLt5Sk22iYf9dcH+AStG770YA==;EndpointSuffix=core.windows.net";
 
     // Create a Blob Service Client
     BlobServiceClient blobServiceClient = new BlobServiceClient(storageConnectionString);

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("az204-blob")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba6135ac86a9506ed21b2d6945232d7b5051ebcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4603fc3dc1a5fb6289978ee563b21fe6b9b2db0")]
 [assembly: System.Reflection.AssemblyProductAttribute("az204-blob")]
 [assembly: System.Reflection.AssemblyTitleAttribute("az204-blob")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
