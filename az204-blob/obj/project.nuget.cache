@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dSmP4oxEyq8=",
+  "dgSpecHash": "gsn6Ah+23Dw=",
   "success": false,
   "projectFilePath": "D:\\azuree\\Azure functions\\az204-blob\\az204-blob.csproj",
   "expectedPackageFiles": [],
@@ -8,37 +8,37 @@
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 6.0.36)' for 'net6.0'.",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 7.0.20)' for 'net7.0'.",
       "libraryId": "Microsoft.NETCore.App.Ref",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 6.0.36)' for 'net6.0'.",
+      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 7.0.20)' for 'net7.0'.",
       "libraryId": "Microsoft.WindowsDesktop.App.Ref",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 6.0.36)' for 'net6.0'.",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 7.0.20)' for 'net7.0'.",
       "libraryId": "Microsoft.AspNetCore.App.Ref",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Host.win-x64 (= 6.0.36)' for 'net6.0'.",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Host.win-x64 (= 7.0.20)' for 'net7.0'.",
       "libraryId": "Microsoft.NETCore.App.Host.win-x64",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     }
   ]

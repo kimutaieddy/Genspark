@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\EddyKimutai\\.nuget\\packages\\": {}
@@ -23,11 +23,11 @@
         "C:\\Users\\EddyKimutai\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -43,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -59,19 +59,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
+            "version": "[7.0.20, 7.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.36, 6.0.36]"
+            "version": "[7.0.20, 7.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
+            "version": "[7.0.20, 7.0.20]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
+            "version": "[7.0.20, 7.0.20]"
           }
         ],
         "frameworkReferences": {
@@ -87,37 +87,37 @@
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 6.0.36)' for 'net6.0'.",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 7.0.20)' for 'net7.0'.",
       "libraryId": "Microsoft.NETCore.App.Ref",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 6.0.36)' for 'net6.0'.",
+      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 7.0.20)' for 'net7.0'.",
       "libraryId": "Microsoft.WindowsDesktop.App.Ref",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 6.0.36)' for 'net6.0'.",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 7.0.20)' for 'net7.0'.",
       "libraryId": "Microsoft.AspNetCore.App.Ref",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     },
     {
       "code": "NU1100",
       "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Host.win-x64 (= 6.0.36)' for 'net6.0'.",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Host.win-x64 (= 7.0.20)' for 'net7.0'.",
       "libraryId": "Microsoft.NETCore.App.Host.win-x64",
       "targetGraphs": [
-        "net6.0"
+        "net7.0"
       ]
     }
   ]
